@@ -1,0 +1,35 @@
+# === US Banks 专属分流规则 ===
+# 适用于 Shadowrocket (小火箭) 外部规则集
+# 说明：在小火箭添加此规则集后，请将策略统一指向你的美国家宽节点
+
+# =========================================
+# === Monzo US ===
+# =========================================
+# Monzo 主域名及静态资源
+DOMAIN-SUFFIX,monzo.com
+DOMAIN-SUFFIX,monzo.io
+DOMAIN-SUFFIX,monzostatic.com
+# Monzo 内置客服系统（拦截会导致无法联系客服）
+DOMAIN-SUFFIX,intercom.io
+# 关键词兜底匹配
+DOMAIN-KEYWORD,monzo
+
+# =========================================
+# === Capital One ===
+# =========================================
+# Capital One 主域名及信用卡专属域名
+DOMAIN-SUFFIX,capitalone.com
+DOMAIN-SUFFIX,capitalonecards.com
+# Capital One 国际域名（防止 App 内部重定向导致 IP 泄露）
+DOMAIN-SUFFIX,capitalone.ca
+DOMAIN-SUFFIX,capitalone.co.uk
+# 关键词兜底匹配
+DOMAIN-KEYWORD,capitalone
+# 银行及信用卡常用的第三方安全证书验证域名
+DOMAIN-SUFFIX,entrust.net
+
+# =========================================
+# === 银行通用基础设施 ===
+# =========================================
+# Plaid (强烈建议保留，美国银行间互相绑卡、验证、出入金时必用的网关接口)
+DOMAIN-SUFFIX,plaid.com
