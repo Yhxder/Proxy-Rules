@@ -1,18 +1,6 @@
 # === US Banks 专属分流规则 ===
 # 适用于 Shadowrocket (小火箭) 外部规则集
-# 说明：在小火箭添加此规则集后，请将策略统一指向你的美国家宽节点
-
-# =========================================
-# === Monzo US ===
-# =========================================
-# Monzo 主域名及静态资源
-DOMAIN-SUFFIX,monzo.com
-DOMAIN-SUFFIX,monzo.io
-DOMAIN-SUFFIX,monzostatic.com
-# Monzo 内置客服系统（拦截会导致无法联系客服）
-DOMAIN-SUFFIX,intercom.io
-# 关键词兜底匹配
-DOMAIN-KEYWORD,monzo
+# 说明：在小火箭添加此规则集后，请将策略统一指向你的美国家宽节点，monzo us已停止在美国的服务因此删除
 
 # =========================================
 # === Capital One ===
