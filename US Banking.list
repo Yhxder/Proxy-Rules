@@ -74,6 +74,15 @@ DOMAIN-SUFFIX,wellsfargoadvisors.com
 DOMAIN-SUFFIX,usbank.com
 
 # =========================================
+# === MVNO (虚拟运营商) ===
+# =========================================
+# Red Pocket (风控极严，建议强制家宽 IP)
+DOMAIN-SUFFIX,redpocket.com
+DOMAIN-SUFFIX,goredpocket.com
+DOMAIN-KEYWORD,redpocket
+
+
+# =========================================
 # === Fintech & Rewards (常用金融及返现) ===
 # =========================================
 # SoFi (fintech银行)
