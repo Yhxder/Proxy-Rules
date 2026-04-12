@@ -1,0 +1,89 @@
+# === US Banks & Finance Rules for Surge ===
+# 说明：建议将此 Rule-Set 对应的策略设置为你的“美国家宽”节点
+# 剔除 PayPal (直连), 剔除 Monzo US (停止服务)
+
+# =========================================
+# === Capital One ===
+# =========================================
+DOMAIN-SUFFIX,capitalone.com
+DOMAIN-SUFFIX,capitalonecards.com
+DOMAIN-SUFFIX,capitalone.ca
+DOMAIN-SUFFIX,capitalone.co.uk
+DOMAIN-KEYWORD,capitalone
+DOMAIN-SUFFIX,entrust.net
+
+# =========================================
+# === Equifax & Credit Bureaus (三大信用局) ===
+# =========================================
+# Equifax
+DOMAIN-SUFFIX,equifax.com
+DOMAIN-SUFFIX,equifax.ca
+DOMAIN-KEYWORD,equifax
+# Experian
+DOMAIN-SUFFIX,experian.com
+DOMAIN-SUFFIX,experian.co.uk
+DOMAIN-SUFFIX,expn.com
+DOMAIN-KEYWORD,experian
+# TransUnion
+DOMAIN-SUFFIX,transunion.com
+DOMAIN-SUFFIX,truelink.com
+DOMAIN-KEYWORD,transunion
+
+# =========================================
+# === Major Issuers (主流发卡行) ===
+# =========================================
+# American Express
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,aexp-static.com
+DOMAIN-SUFFIX,amexnetwork.com
+DOMAIN-KEYWORD,americanexpress
+DOMAIN-KEYWORD,amex
+# Chase
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,chasecdn.com
+DOMAIN-SUFFIX,chaseonline.chase.com
+DOMAIN-KEYWORD,chase
+# Citibank
+DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,citibank.com
+DOMAIN-SUFFIX,citigroup.com
+DOMAIN-KEYWORD,citi
+# BofA / Discover / Wells Fargo / US Bank
+DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,bofa.com
+DOMAIN-SUFFIX,discover.com
+DOMAIN-SUFFIX,discovercard.com
+DOMAIN-SUFFIX,wellsfargo.com
+DOMAIN-SUFFIX,wellsfargoadvisors.com
+DOMAIN-SUFFIX,usbank.com
+
+# =========================================
+# === MVNO (运营商 - Red Pocket) ===
+# =========================================
+DOMAIN-SUFFIX,redpocket.com
+DOMAIN-SUFFIX,goredpocket.com
+DOMAIN-KEYWORD,redpocket
+
+# =========================================
+# === Fintech & Rewards (SoFi / Bilt / Others) ===
+# =========================================
+# SoFi
+DOMAIN-SUFFIX,sofi.com
+DOMAIN-SUFFIX,sofi.io
+DOMAIN-SUFFIX,sofi.org
+DOMAIN-KEYWORD,sofi
+# Bilt & Rewards
+DOMAIN-SUFFIX,biltrewards.com
+DOMAIN-SUFFIX,bilt.com
+DOMAIN-SUFFIX,rakuten.com
+# Payments (Venmo / Zelle)
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,zellepay.com
+
+# =========================================
+# === Infrastructure (基础验证网关) ===
+# =========================================
+# Plaid
+DOMAIN-SUFFIX,plaid.com
+# Persona
+DOMAIN-SUFFIX,withpersona.com
