@@ -1,0 +1,24 @@
+# > 香港银行 (HK Banks) - 策略组分流
+
+# 汇丰香港 (HSBC HK)
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-KEYWORD,hsbc
+
+# 中银香港 (BOCHK)
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-KEYWORD,bochk
+
+# ZA Bank (众安银行)
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zavirtualbank.com
+DOMAIN-KEYWORD,za
+
+# 天星银行 (Airstar Bank)
+DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-KEYWORD,airstar
+
+# WeLab Bank (汇立银行)
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,welab.com
+DOMAIN-KEYWORD,welab
