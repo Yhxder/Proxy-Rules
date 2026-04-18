@@ -72,6 +72,12 @@ DOMAIN-SUFFIX,sofi.com
 DOMAIN-SUFFIX,sofi.io
 DOMAIN-SUFFIX,sofi.org
 DOMAIN-KEYWORD,sofi
+# === Revolut (全球数字银行) ===
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-SUFFIX,revolut.codes
+DOMAIN-SUFFIX,revolut.link
+DOMAIN-SUFFIX,revolut.me
+DOMAIN-KEYWORD,revolut
 # Bilt & Rewards
 DOMAIN-SUFFIX,biltrewards.com
 DOMAIN-SUFFIX,bilt.com
