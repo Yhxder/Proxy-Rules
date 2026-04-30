@@ -13,7 +13,7 @@ DOMAIN-KEYWORD,capitalone
 DOMAIN-SUFFIX,entrust.net
 
 # =========================================
-# === Equifax & Credit Bureaus (三大信用局) ===
+# === Credit Bureaus (三大信用局) ===
 # =========================================
 # Equifax
 DOMAIN-SUFFIX,equifax.com
@@ -85,6 +85,12 @@ DOMAIN-SUFFIX,rakuten.com
 # Payments (Venmo / Zelle)
 DOMAIN-SUFFIX,venmo.com
 DOMAIN-SUFFIX,zellepay.com
+
+# =========================================
+# === Kikoff (信用修复/构建) ===
+# =========================================
+DOMAIN-SUFFIX,kikoff.com
+DOMAIN-KEYWORD,kikoff
 
 # =========================================
 # === Infrastructure (基础验证网关) ===
