@@ -1,6 +1,6 @@
-# === US Banks & Finance Rules for Surge ===
-# 说明：建议将此 Rule-Set 对应的策略设置为你的“美国家宽”节点
-# 剔除 PayPal (直连), 剔除 Monzo US (停止服务)
+# === US Banks & Finance Rules ===
+# 策略建议：统一指向“美国家宽”节点
+# 最后更新：2026-05-03
 
 # =========================================
 # === Capital One ===
@@ -15,16 +15,13 @@ DOMAIN-SUFFIX,entrust.net
 # =========================================
 # === Credit Bureaus (三大信用局) ===
 # =========================================
-# Equifax
 DOMAIN-SUFFIX,equifax.com
 DOMAIN-SUFFIX,equifax.ca
 DOMAIN-KEYWORD,equifax
-# Experian
 DOMAIN-SUFFIX,experian.com
 DOMAIN-SUFFIX,experian.co.uk
 DOMAIN-SUFFIX,expn.com
 DOMAIN-KEYWORD,experian
-# TransUnion
 DOMAIN-SUFFIX,transunion.com
 DOMAIN-SUFFIX,truelink.com
 DOMAIN-KEYWORD,transunion
@@ -32,7 +29,7 @@ DOMAIN-KEYWORD,transunion
 # =========================================
 # === Major Issuers (主流发卡行) ===
 # =========================================
-# American Express
+# Amex
 DOMAIN-SUFFIX,americanexpress.com
 DOMAIN-SUFFIX,aexp-static.com
 DOMAIN-SUFFIX,amexnetwork.com
@@ -43,16 +40,18 @@ DOMAIN-SUFFIX,chase.com
 DOMAIN-SUFFIX,chasecdn.com
 DOMAIN-SUFFIX,chaseonline.chase.com
 DOMAIN-KEYWORD,chase
-# Citibank
+# Citi
 DOMAIN-SUFFIX,citi.com
 DOMAIN-SUFFIX,citibank.com
 DOMAIN-SUFFIX,citigroup.com
 DOMAIN-KEYWORD,citi
-# BofA / Discover / Wells Fargo / US Bank
+# BoA
 DOMAIN-SUFFIX,bankofamerica.com
 DOMAIN-SUFFIX,bofa.com
+# Discover
 DOMAIN-SUFFIX,discover.com
 DOMAIN-SUFFIX,discovercard.com
+# Wellsfargo
 DOMAIN-SUFFIX,wellsfargo.com
 DOMAIN-SUFFIX,wellsfargoadvisors.com
 DOMAIN-SUFFIX,usbank.com
@@ -65,19 +64,25 @@ DOMAIN-SUFFIX,goredpocket.com
 DOMAIN-KEYWORD,redpocket
 
 # =========================================
-# === Fintech & Rewards (SoFi / Bilt / Others) ===
+# === Fintech & Credit Building ===
 # =========================================
-# SoFi
-DOMAIN-SUFFIX,sofi.com
-DOMAIN-SUFFIX,sofi.io
-DOMAIN-SUFFIX,sofi.org
-DOMAIN-KEYWORD,sofi
-# === Revolut (全球数字银行) ===
+# OpenSky
+DOMAIN-SUFFIX,openskycc.com
+DOMAIN-KEYWORD,opensky
+# Kikoff
+DOMAIN-SUFFIX,kikoff.com
+DOMAIN-KEYWORD,kikoff
+# Revolut
 DOMAIN-SUFFIX,revolut.com
 DOMAIN-SUFFIX,revolut.codes
 DOMAIN-SUFFIX,revolut.link
 DOMAIN-SUFFIX,revolut.me
 DOMAIN-KEYWORD,revolut
+# SoFi
+DOMAIN-SUFFIX,sofi.com
+DOMAIN-SUFFIX,sofi.io
+DOMAIN-SUFFIX,sofi.org
+DOMAIN-KEYWORD,sofi
 # Bilt & Rewards
 DOMAIN-SUFFIX,biltrewards.com
 DOMAIN-SUFFIX,bilt.com
@@ -87,15 +92,7 @@ DOMAIN-SUFFIX,venmo.com
 DOMAIN-SUFFIX,zellepay.com
 
 # =========================================
-# === Kikoff (信用修复/构建) ===
-# =========================================
-DOMAIN-SUFFIX,kikoff.com
-DOMAIN-KEYWORD,kikoff
-
-# =========================================
 # === Infrastructure (基础验证网关) ===
 # =========================================
-# Plaid
 DOMAIN-SUFFIX,plaid.com
-# Persona
 DOMAIN-SUFFIX,withpersona.com
