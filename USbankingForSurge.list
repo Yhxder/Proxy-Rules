@@ -96,3 +96,9 @@ DOMAIN-SUFFIX,zellepay.com
 # =========================================
 DOMAIN-SUFFIX,plaid.com
 DOMAIN-SUFFIX,withpersona.com
+
+# =========================================
+# === Forum (美卡论坛) ===
+# =========================================
+DOMAIN-SUFFIX,uscardforum.com
+DOMAIN-KEYWORD,uscardforum
